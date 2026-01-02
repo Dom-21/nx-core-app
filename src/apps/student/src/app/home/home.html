@@ -1,0 +1,260 @@
+<!-- Hero Section -->
+<section class="bg-gradient-to-br from-blue-600 via-purple-600 to-pink-500 text-white min-h-screen flex items-center">
+  <div class="container mx-auto px-6">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div>
+        <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
+          Welcome to the Future of Learning
+        </h1>
+        <p class="text-xl md:text-2xl mb-8 text-blue-100">
+          Unlock your potential with our innovative platform designed for students who want to excel
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4">
+          <button class="px-8 py-4 bg-white text-blue-600 rounded-lg font-semibold hover:bg-gray-100 transition duration-300 shadow-xl flex items-center justify-center gap-2">
+            Get Started Free
+            <fa-icon [icon]="faArrowRight"></fa-icon>
+          </button>
+          <button class="px-8 py-4 bg-transparent border-2 border-white text-white rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition duration-300">
+            Watch Demo
+          </button>
+        </div>
+        <div class="mt-8 flex items-center gap-6 text-sm">
+          <div class="flex items-center gap-2">
+            <fa-icon [icon]="faCheckCircle" class="text-green-300"></fa-icon>
+            <span>No credit card required</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <fa-icon [icon]="faCheckCircle" class="text-green-300"></fa-icon>
+            <span>14-day free trial</span>
+          </div>
+        </div>
+      </div>
+      <div class="hidden lg:block">
+        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-8 shadow-2xl">
+          <div class="aspect-video bg-gradient-to-br from-blue-400 to-purple-500 rounded-lg flex items-center justify-center">
+            <fa-icon [icon]="faRocket" class="text-9xl text-white opacity-50"></fa-icon>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Features Section -->
+<section class="py-20 bg-white">
+  <div class="container mx-auto px-6">
+    <div class="text-center mb-16">
+      <span class="text-blue-600 font-semibold text-sm uppercase tracking-wider">Features</span>
+      <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mt-2 mb-4">
+        Everything You Need to Succeed
+      </h2>
+      <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+        Powerful tools and features designed to enhance your learning experience
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Feature 1 -->
+      <div class="group p-8 rounded-2xl hover:bg-blue-50 transition duration-300 cursor-pointer">
+        <div class="inline-flex items-center justify-center w-14 h-14 bg-blue-100 rounded-xl mb-6 group-hover:bg-blue-600 transition duration-300">
+          <fa-icon [icon]="faRocket" class="text-2xl text-blue-600 group-hover:text-white transition duration-300"></fa-icon>
+        </div>
+        <h3 class="text-2xl font-semibold text-gray-900 mb-3">Fast & Efficient</h3>
+        <p class="text-gray-600 leading-relaxed">
+          Learn at your own pace with our optimized platform that ensures smooth and fast performance
+        </p>
+      </div>
+
+      <!-- Feature 2 -->
+      <div class="group p-8 rounded-2xl hover:bg-green-50 transition duration-300 cursor-pointer">
+        <div class="inline-flex items-center justify-center w-14 h-14 bg-green-100 rounded-xl mb-6 group-hover:bg-green-600 transition duration-300">
+          <fa-icon [icon]="faShieldAlt" class="text-2xl text-green-600 group-hover:text-white transition duration-300"></fa-icon>
+        </div>
+        <h3 class="text-2xl font-semibold text-gray-900 mb-3">Secure & Private</h3>
+        <p class="text-gray-600 leading-relaxed">
+          Your data is protected with enterprise-grade security and encryption standards
+        </p>
+      </div>
+
+      <!-- Feature 3 -->
+      <div class="group p-8 rounded-2xl hover:bg-purple-50 transition duration-300 cursor-pointer">
+        <div class="inline-flex items-center justify-center w-14 h-14 bg-purple-100 rounded-xl mb-6 group-hover:bg-purple-600 transition duration-300">
+          <fa-icon [icon]="faChartLine" class="text-2xl text-purple-600 group-hover:text-white transition duration-300"></fa-icon>
+        </div>
+        <h3 class="text-2xl font-semibold text-gray-900 mb-3">Track Progress</h3>
+        <p class="text-gray-600 leading-relaxed">
+          Monitor your learning journey with detailed analytics and progress tracking
+        </p>
+      </div>
+
+      <!-- Feature 4 -->
+      <div class="group p-8 rounded-2xl hover:bg-orange-50 transition duration-300 cursor-pointer">
+        <div class="inline-flex items-center justify-center w-14 h-14 bg-orange-100 rounded-xl mb-6 group-hover:bg-orange-600 transition duration-300">
+          <fa-icon [icon]="faClock" class="text-2xl text-orange-600 group-hover:text-white transition duration-300"></fa-icon>
+        </div>
+        <h3 class="text-2xl font-semibold text-gray-900 mb-3">Learn Anytime</h3>
+        <p class="text-gray-600 leading-relaxed">
+          Access your courses 24/7 from any device, anywhere in the world
+        </p>
+      </div>
+
+      <!-- Feature 5 -->
+      <div class="group p-8 rounded-2xl hover:bg-pink-50 transition duration-300 cursor-pointer">
+        <div class="inline-flex items-center justify-center w-14 h-14 bg-pink-100 rounded-xl mb-6 group-hover:bg-pink-600 transition duration-300">
+          <fa-icon [icon]="faUsers" class="text-2xl text-pink-600 group-hover:text-white transition duration-300"></fa-icon>
+        </div>
+        <h3 class="text-2xl font-semibold text-gray-900 mb-3">Community Support</h3>
+        <p class="text-gray-600 leading-relaxed">
+          Join a vibrant community of learners and get help when you need it
+        </p>
+      </div>
+
+      <!-- Feature 6 -->
+      <div class="group p-8 rounded-2xl hover:bg-indigo-50 transition duration-300 cursor-pointer">
+        <div class="inline-flex items-center justify-center w-14 h-14 bg-indigo-100 rounded-xl mb-6 group-hover:bg-indigo-600 transition duration-300">
+          <fa-icon [icon]="faCheckCircle" class="text-2xl text-indigo-600 group-hover:text-white transition duration-300"></fa-icon>
+        </div>
+        <h3 class="text-2xl font-semibold text-gray-900 mb-3">Certified Courses</h3>
+        <p class="text-gray-600 leading-relaxed">
+          Earn recognized certificates upon completion to boost your career
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Stats Section -->
+<section class="py-20 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
+  <div class="container mx-auto px-6">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+      <div class="text-center">
+        <div class="text-5xl md:text-6xl font-bold mb-2">50K+</div>
+        <div class="text-lg md:text-xl text-blue-100">Active Students</div>
+      </div>
+      <div class="text-center">
+        <div class="text-5xl md:text-6xl font-bold mb-2">1000+</div>
+        <div class="text-lg md:text-xl text-blue-100">Courses</div>
+      </div>
+      <div class="text-center">
+        <div class="text-5xl md:text-6xl font-bold mb-2">200+</div>
+        <div class="text-lg md:text-xl text-blue-100">Expert Instructors</div>
+      </div>
+      <div class="text-center">
+        <div class="text-5xl md:text-6xl font-bold mb-2">99%</div>
+        <div class="text-lg md:text-xl text-blue-100">Satisfaction Rate</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials Section -->
+<section class="py-20 bg-gray-50">
+  <div class="container mx-auto px-6">
+    <div class="text-center mb-16">
+      <span class="text-blue-600 font-semibold text-sm uppercase tracking-wider">Testimonials</span>
+      <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mt-2 mb-4">
+        What Students Say
+      </h2>
+      <p class="text-xl text-gray-600">
+        Real stories from real students
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Testimonial 1 -->
+      <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition duration-300">
+        <div class="flex mb-4">
+          <fa-icon [icon]="faStar" class="text-yellow-400 text-xl"></fa-icon>
+          <fa-icon [icon]="faStar" class="text-yellow-400 text-xl"></fa-icon>
+          <fa-icon [icon]="faStar" class="text-yellow-400 text-xl"></fa-icon>
+          <fa-icon [icon]="faStar" class="text-yellow-400 text-xl"></fa-icon>
+          <fa-icon [icon]="faStar" class="text-yellow-400 text-xl"></fa-icon>
+        </div>
+        <p class="text-gray-600 mb-6 leading-relaxed">
+          "This platform completely transformed my learning experience. The courses are well-structured and easy to follow!"
+        </p>
+        <div class="flex items-center">
+          <div class="w-12 h-12 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full flex items-center justify-center text-white font-bold mr-4">
+            AK
+          </div>
+          <div>
+            <div class="font-semibold text-gray-900">Alex Kumar</div>
+            <div class="text-gray-500 text-sm">Computer Science Student</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonial 2 -->
+      <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition duration-300">
+        <div class="flex mb-4">
+          <fa-icon [icon]="faStar" class="text-yellow-400 text-xl"></fa-icon>
+          <fa-icon [icon]="faStar" class="text-yellow-400 text-xl"></fa-icon>
+          <fa-icon [icon]="faStar" class="text-yellow-400 text-xl"></fa-icon>
+          <fa-icon [icon]="faStar" class="text-yellow-400 text-xl"></fa-icon>
+          <fa-icon [icon]="faStar" class="text-yellow-400 text-xl"></fa-icon>
+        </div>
+        <p class="text-gray-600 mb-6 leading-relaxed">
+          "I love the flexibility and the quality of content. Highly recommend to anyone looking to upskill!"
+        </p>
+        <div class="flex items-center">
+          <div class="w-12 h-12 bg-gradient-to-br from-purple-400 to-purple-600 rounded-full flex items-center justify-center text-white font-bold mr-4">
+            SP
+          </div>
+          <div>
+            <div class="font-semibold text-gray-900">Priya Sharma</div>
+            <div class="text-gray-500 text-sm">Marketing Professional</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonial 3 -->
+      <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition duration-300">
+        <div class="flex mb-4">
+          <fa-icon [icon]="faStar" class="text-yellow-400 text-xl"></fa-icon>
+          <fa-icon [icon]="faStar" class="text-yellow-400 text-xl"></fa-icon>
+          <fa-icon [icon]="faStar" class="text-yellow-400 text-xl"></fa-icon>
+          <fa-icon [icon]="faStar" class="text-yellow-400 text-xl"></fa-icon>
+          <fa-icon [icon]="faStar" class="text-yellow-400 text-xl"></fa-icon>
+        </div>
+        <p class="text-gray-600 mb-6 leading-relaxed">
+          "Best investment I've made in my education. The instructors are knowledgeable and supportive!"
+        </p>
+        <div class="flex items-center">
+          <div class="w-12 h-12 bg-gradient-to-br from-green-400 to-green-600 rounded-full flex items-center justify-center text-white font-bold mr-4">
+            RJ
+          </div>
+          <div>
+            <div class="font-semibold text-gray-900">Rahul Joshi</div>
+            <div class="text-gray-500 text-sm">Data Analyst</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA Section -->
+<section class="py-20 bg-gradient-to-br from-blue-600 via-purple-600 to-pink-500 text-white">
+  <div class="container mx-auto px-6">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-4xl md:text-5xl font-bold mb-6">
+        Ready to Start Your Learning Journey?
+      </h2>
+      <p class="text-xl md:text-2xl mb-10 text-blue-100">
+        Join thousands of students already learning and growing with us
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <button class="px-10 py-4 bg-white text-blue-600 rounded-lg font-semibold text-lg hover:bg-gray-100 transition duration-300 shadow-xl flex items-center justify-center gap-2">
+          Start Free Trial
+          <fa-icon [icon]="faArrowRight"></fa-icon>
+        </button>
+        <button class="px-10 py-4 bg-transparent border-2 border-white text-white rounded-lg font-semibold text-lg hover:bg-white hover:text-blue-600 transition duration-300">
+          Schedule a Demo
+        </button>
+      </div>
+      <p class="mt-6 text-blue-100 text-sm">
+        No credit card required • Cancel anytime • Get started in minutes
+      </p>
+    </div>
+  </div>
+</section>
